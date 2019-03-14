@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href="css/style.css">
+    <title>Speed Type Game</title>
+</head>
+<body>
+    <div id='header'>
+        <h1><span id='scorenamee'></span> Speed Typing Game</h1>
+    </div>
+    <div id='highscorediv'>
+        <div id='highscorecard'>
+        <h4>Fastest Fingers:
+        <h5>Name:<span id='scorename'></span></h5>
+        <h5>Score:<span id='scoretotal'></h4>
+        </div>
+    </div>
+    <div id='startbuttondiv'>
+        <button id='start'>Start</button>
+    </div>
+    <div id='playcard'>
+    <h1 id='endgame'></h1>
+    <h3>Score:<span id='score'></span></h3>
+    <h3>Timer:<span id='timer'></span></h3>
+    <h3>Word:<span id='currentword'></span></h3>
+    <input type='text' id='playerinput' placeholder='type_here' autofocus='on'>
+    <h5 id='praise'></h5>
+    </div>
+    <div id='highscorewindow'>
+        <h3>Congratulations!! You got the new high score!!</h3>
+        <h5>Enter your name!! But let the keyboard cool off first! :)</h5>
+        Til new Game: <span id='highscoretimer'></span>
+        <form id='highscoreform'>
+            
+        <input type='text' id='highscorer' placeholder='speed_typer'>
+        <button>Enter</button>
+        </form>
+
+    </div>
+
+    <div id='footer'>
+        Footer &copy;
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
